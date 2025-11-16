@@ -1,0 +1,65 @@
+html {
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    flex: auto;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #dad8d0;
+    background: #202020;
+}
+body > header {
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.1);
+}
+main {
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: auto;
+}
+main > div {
+    max-width: 960px;
+}
+#branding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+#socials {
+    text-align: center;
+}
+#socials a {
+    margin:0 1rem;
+}
+.logo {
+    width: 110px;
+    margin-bottom: 0;
+}
+h3:not(:first-child) {
+    margin-top: 2.5em;
+}
+p, li {
+    line-height: 200%;
+}
+a {
+    color: #4796d9;
+    text-decoration: none;
+}
+a:visited {
+    color:#a87cc5;
+}
+a:hover {
+    text-decoration: underline;
+}
